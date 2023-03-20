@@ -1,0 +1,8 @@
+syntax="proto3";
+import "TestDto.proto";
+
+message ListTestDto {
+
+  repeated TestDto list = 1;
+  
+}
